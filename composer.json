@@ -1,0 +1,17 @@
+{
+    "name": "christoxz/infiniteflight-live",
+    "description": "Laravel package to interact with Infinite Flight Live API",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Christoxz\\InfiniteflightLive\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ChrisToxz",
+            "email": "chris@toxz.nl"
+        }
+    ],
+    "require": {}
+}
