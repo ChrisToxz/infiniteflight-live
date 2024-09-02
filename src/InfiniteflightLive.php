@@ -76,8 +76,6 @@ class InfiniteflightLive
      */
     public function makeCall(string $endpoint, string $method = 'get', array $body = [], array $options = []): Response
     {
-        // TODO: Remove
-        ds("API Call made: {$endpoint}");
         if (!in_array($method, ['get', 'post'])) {
             throw new Exception('Invalid method');
         }
